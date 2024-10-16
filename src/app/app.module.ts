@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { FeatureComponent } from './feature/feature.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { ResevaComponent } from './reseva/reseva.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     HomeComponent,
     AboutComponent,
     FeatureComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    ResevaComponent
   ],
   imports: [
     BrowserModule,
